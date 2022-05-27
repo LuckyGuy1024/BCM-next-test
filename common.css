@@ -1,0 +1,86 @@
+body {
+	background-color: #F6F6F7;
+	font-family: Rubik;
+	margin: 0px;
+}
+.header {
+	align-items: center;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	height: 85px;
+}
+.header .next-btn {
+	background-color: #3E66FB;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	font-family: Rubik;
+	height: 45px;
+	padding: 10px;
+}
+.header .next-btn .bcm {
+	font-size: 18px;
+	font-weight: 500;
+}
+.header .next-btn .next {
+	font-size: '11px';
+	font-weight: 300;
+}
+
+.header .toolbar {
+	align-items: center;
+	display: flex;
+	height: 100%;
+}
+
+.header .toolbar .setting, .notification, .user {
+	align-items: center;
+	border-left: 2px solid #F0F0F1;
+	display: flex;
+	height: 100%;
+	padding: 0 20px;
+}
+.header .toolbar .notification .icon {
+	position: relative;
+}
+.header .toolbar .notification .icon .circle {
+	background-color: blue; 
+	position:absolute;
+	border-radius: 100%;
+	width:10px; 
+	height:10px; 
+	top:0px; 
+	right:5px;
+}
+
+.header .toolbar .user .profile {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	margin-left: 8px;
+	margin-right: 22px;
+}
+.header .toolbar .user .profile .name {
+	color: #2F3C4C;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.header .toolbar .user .profile .role {
+	color: #3E66FB;
+	font-family: Rubik;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 14px;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}

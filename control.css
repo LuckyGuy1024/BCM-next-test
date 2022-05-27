@@ -1,0 +1,131 @@
+.container .content {
+			width: 1000px;
+			height: 1000px;
+			position: relative;
+			display: flex;
+			justify-content: center;
+		}
+		.container .content .pipeline {
+			position: absolute;
+			top: 10px;
+			left: 60px;
+		}
+		.container .content .panel {
+			position: absolute;
+			top: 50px;
+			left: -100px;
+		}
+		.container .content .panel .tip {
+			color: #C2C9D1;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 20px;
+		}	
+		.container .content .panel .btn {
+			background-color: white;
+			box-shadow: 0px 15px 50px rgba(160, 163, 189, 0.1);
+			border-radius: 10px;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 25px;
+			padding: 12px;
+			width: 168px;
+			height: 68px;
+		}
+		.container .content .panel .btn .info {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.container .content .panel .btn .info .strategy {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 28px;
+		}
+		.container .content .panel .btn .info .status {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.container .content .panel .btn .info .status.success {
+			color: #3CC13B;
+		}
+		.container .content .panel .btn .info .status.waiting {
+			color: #3E66FB;
+		}
+		.container .content .panel .btn .info .status.fail {
+			opacity: 50%;
+			color: #3E66FB;
+		}
+		.container .content .panel .btn .circle {
+			border-radius: 100%;
+			width: 20px;
+			height: 20px;
+		}
+		.container .content .panel .btn .circle.success {
+			background-color: #3CC13B;
+		}
+		.container .content .panel .btn .circle.fail {
+			background-color: #3E66FB;
+		}
+
+		.container .content .chart {
+			background-color: white;
+			border-radius: 100%;
+			width: 660px;
+			height: 660px;
+			position: relative;
+		}
+		.container .content .chart img {
+			position: absolute;
+			transition: all 0.5s ease-out;
+		}
+		.pie1 {
+			top:-37px; 
+			left:-46px;
+			width: 400px; 
+			height:400px;
+			z-index: 10;
+		}
+		.pie1:hover {
+			top: -50px;
+			left: -59px;
+		}
+
+		.pie2 {
+			top:-18px; 
+			right:-18px; 
+			width:580px; 
+			height:580px;
+			z-index: 8;
+		}
+		.pie2:hover {
+			top: -31px;
+			right: -31px;
+		}
+
+		.pie3 {
+			bottom:-17px; 
+			left:-15px; 
+			width:580px; 
+			height:580px;
+			z-index: 6;			
+		}
+		.pie3:hover {
+			bottom: -30px;
+			left: -18px;
+		}
+
+		.pie4 {
+			bottom:-15px; 
+			right:-15px; 
+			height:343px;
+			z-index: 10;
+		}
+		.pie4:hover {
+			bottom: -28px;
+			right: -28px;
+		}
